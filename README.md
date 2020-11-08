@@ -34,3 +34,12 @@ Before Executing the scripts, make sure to have following resources:
 ## After Execution
 
 - When the test suite execution is completed, check the html report from <<Project Location>>\target\surefire-reports\index.html
+
+
+## Running Automation Test from CMD
+In order to execute tests from cmd, make sure to install maven in your local machine, its environment variable should be configured and your JAVA_HOME should be pointed to jdk not jre
+- Open the cmd and browser to your project location
+- Enter the command mvn clean test
+
+## Verify Reporting
+- After the execution, test execution report will be generated under /target/surefire-reports/index.html
